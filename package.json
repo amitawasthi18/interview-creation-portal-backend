@@ -7,7 +7,7 @@
     "start": "node app.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "author": "Shivam",
+  "author": "amit",
   "license": "ISC",
   "dependencies": {
     "@sendgrid/mail": "^7.4.4",
